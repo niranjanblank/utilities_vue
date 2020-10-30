@@ -138,7 +138,7 @@ background-color: lightgrey;
     content: '';
     width: calc(var(--mark-size)*.7);
     height: calc(var(--mark-size)*.7);
-    background-color: white;
+  background-color: pink;
 }
 
 .winning-message{

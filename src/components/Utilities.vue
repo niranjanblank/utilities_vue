@@ -3,9 +3,10 @@
      <h1 style="text-align: center; font-family: 'Sansita Swashed'; font-size:70px;">Utilities</h1>
      <div>
        <h3 class="textStyle"> 1. Utilities is a simple webapp having some useful tools. </h3>
-       <h3 class="textStyle"> 2. Tictactoe is a simple game which can be played with any friend. </h3>
+       <h3 class="textStyle"> 2. Tictactoe is a simple game which can be played with any friend sitting next to you. </h3>
        <h3 class="textStyle"> 3. Password generator helps to generate strong passwords. </h3>
        <h3 class="textStyle"> 4. Random number generator helps to generate random numbers which can be used in lucky draw. </h3>
+       <h3 class="textStyle"> 5. SHA512 helps to generate generates hash value of the given text. </h3>
        
      </div>
     <div class="brandIcons">

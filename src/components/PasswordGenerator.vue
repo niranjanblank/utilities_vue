@@ -12,7 +12,7 @@
                     justify-content: center;">
                         <button @click="generatePassword" class="btn btn-primary">Generate Password</button>
                     </div>
-                    <h2><p class="ow mt-3" style="text-justify: center;">{{password}}</p></h2>
+                    <h2 ><p class="ow mt-3" style="text-justify: center;">{{password}}</p></h2>
                     
                 </div>
             </div>
@@ -26,8 +26,7 @@
             overflow-wrap: break-word;
          word-wrap: break-word;
         hyphens: auto;
-            display:flex;
-            justify-content: center;
+
         }
 .center-screen {
   display: flex;

@@ -10,6 +10,7 @@
                   <li class="a"><router-link class="nav-link" :to="'/tictactoe'">Tic Tac Toe</router-link></li>
                   <li class="b"><router-link class="nav-link" :to="'/passwordgenerator'">Password Generator</router-link></li>
                   <li class="c"><router-link class="nav-link" :to="'/randomnumber'">Random Number Generator</router-link></li>
+                  <li class="c"><router-link class="nav-link" :to="'/shagenerator'">SHA512 Generator</router-link></li>
                 </ul>
   
             </div>
