@@ -2,15 +2,15 @@
   <div id="app" class="mainbody">
     <div class="appLayout">
             <div class="option">
-                <router-link class="nav-link" :to="'/'"><h1 style="text-align: center; 
+                <router-link class="nav-link" active-class="nav-link"  :to="'/'"><h1 style="text-align: center; 
                 font-family: 'Sansita Swashed'; font-size:70px; 
                 color: rgb(44,62,80);">Utilities</h1></router-link>
                 <ul class="list-group">
                   
-                  <li class="a"><router-link class="nav-link" :to="'/tictactoe'">Tic Tac Toe</router-link></li>
-                  <li class="b"><router-link class="nav-link" :to="'/passwordgenerator'">Password Generator</router-link></li>
-                  <li class="c"><router-link class="nav-link" :to="'/randomnumber'">Random Number Generator</router-link></li>
-                  <li class="c"><router-link class="nav-link" :to="'/shagenerator'">SHA512 Generator</router-link></li>
+                  <li ><router-link class="nav-link" :to="'/tictactoe'" active-class="active">Tic Tac Toe</router-link></li>
+                  <li ><router-link class="nav-link" :to="'/passwordgenerator'" active-class="active">Password Generator</router-link></li>
+                  <li ><router-link class="nav-link" :to="'/randomnumber'" active-class="active">Random Number Generator</router-link></li>
+                  <li ><router-link class="nav-link" :to="'/shagenerator'" active-class="active">SHA512 Generator</router-link></li>
                 </ul>
   
             </div>
@@ -122,5 +122,12 @@ export default {
    color:white;
 
 }
+
+.active {
+  background-color: grey;
+}
+
+
+
     
 </style>

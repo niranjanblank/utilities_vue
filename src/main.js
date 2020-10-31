@@ -52,7 +52,10 @@ path : '/tictactoe', component: tictactoe
 ]
 
 
-const router = new VueRouter({routes: routes})
+const router = new VueRouter({routes: routes,
+  mode: 'history',
+  linkActiveClass: "active",
+  linkExactActiveClass: "exact-active",})
 new Vue({
   render: h => h(App),
   router: router,
